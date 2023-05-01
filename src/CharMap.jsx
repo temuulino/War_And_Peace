@@ -14,7 +14,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function CharMap() {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyBzUaTnWacRTYyYzE9ifdtSg7d1D-rUXBQ"
+    googleMapsApiKey: //hiding it
   });
 
   if (!isLoaded) return <h1 className="map-loading">Loading...</h1>;
